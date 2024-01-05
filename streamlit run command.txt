@@ -1,0 +1,1 @@
+streamlit run "C:\Users\hp\Desktop\MDD project\Multiple_disease_project.py"
