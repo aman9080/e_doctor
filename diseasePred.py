@@ -5,9 +5,9 @@ from streamlit_option_menu import option_menu
 
 # Loading models
 
-dia_model = pickle.load(open(r"C:\Users\hp\Desktop\vaibhavarora projects\Model\Diabetes.sav",'rb'))
-heart_model = pickle.load(open(r"C:\Users\hp\Desktop\vaibhavarora projects\Model\Heart.sav",'rb'))
-par_model = pickle.load(open(r"C:\Users\hp\Desktop\vaibhavarora projects\Model\Parkinsons.sav",'rb'))
+dia_model = pickle.load(open("Diabetes.sav",'rb'))
+heart_model = pickle.load(open("Heart.sav",'rb'))
+par_model = pickle.load(open("Parkinsons.sav",'rb'))
 
 # sidebar for navigation
 with st.sidebar:
